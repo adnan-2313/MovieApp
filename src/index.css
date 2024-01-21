@@ -1,0 +1,75 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+body{
+  background-color: #d2dbdd;
+  margin:0;
+}
+
+.heading{
+  background-color: white;
+  height: 150px;
+  text-align: center;
+  padding:10px;
+  margin: 0;
+  height: 100px;
+  padding-bottom: 0px;
+  
+}
+h1{
+  color:grey;
+  font-size: 50px;
+  justify-content: center;
+}
+.cards{
+  /* height: 500px; */
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  width:20%;
+  background-color: white;
+  margin: 50px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px black;
+}
+.cards:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.1, 1.1);
+}
+.card_img img{
+  width:100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  height: 500px;
+}
+.card_category{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 20px;
+}.card_title{
+ 
+  margin-left: 20px;
+  font-size: 25px;
+}
+.btn{
+  text-align: center;
+ 
+}
+button{
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: white;
+  border: 1px solid black;
+  padding:10px;
+  border-radius: 10px;
+
+}
+button:hover{
+  cursor: pointer;
+  background-color: black;
+  color:white;
+  transition: .5s;
+}
